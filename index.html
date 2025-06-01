@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyYurei</title>
+  <link rel="stylesheet" href="https://use.typekit.net/iif1egz.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="background-wrapper">
+
+    <!-- Title Screen -->
+    <div id="title-screen" class="screen active">
+      <img src="images/beginningscreen.png" class="centered-screen" alt="background of dark forrest">
+      <img src="images/title.png" class="title-img" alt="Title">
+      <div class="subtitle-text">MyYurei</div>
+      <img src="images/miniyurei.png" class="miniyurei" alt="small ghost floating">
+      <a class="start-link" id="start-btn">
+        <img src="images/startbutton.png" class="start-button" alt="Start Button">
+      </a>
+    </div>
+
+    <!-- Introduction for playerScreen -->
+    <div id="intro-screen" class="screen">
+      <img src="images/introscreen.png" class="centered-screen" alt="galaxy spiral background">
+      <div class="intro-text">
+        Welcome to MyYurei. In Japanese folklore, Yūrei are spirits trapped by sorrow.
+        
+        In MyYurei, you’ll care for one of these lost souls. feed them, cleanse their spirit, and keep them company.
+        
+        With your kindness, they may transform from a vengeful ghost into a happy spirit ready to find peace.
+      </div>
+      <img src="images/next.png" class="next-button" id="go-to-select" alt="Next">
+    </div>
+
+    <!-- Choose Your Yurei Screen -->
+    <div id="choose-screen" class="screen">
+      <img src="images/introscreen.png" class="centered-screen" alt="galaxy spiral background">
+      <div class="choose-title">Choose Your Yurei </div>
+      <div class="jar-container">
+        <a href="gameplay1.html"><img src="images/loveyureijar.png" alt="Love Yurei" class="pink jar"></a>
+        <a href="gameplay2.html"><img src="images/wateryureijar.png" alt="Water Yurei" class="blue jar"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
+
+
