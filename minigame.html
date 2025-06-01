@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyYurei – Math Minigame</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/iif1egz.css" />
+</head>
+<body>
+  <div class="minigame-container">
+
+    <!-- Optional overlay for readability -->
+    <div class="overlay"></div>
+
+    <!-- Game Content -->
+    <h1>Solve the Problem!</h1>
+    <div id="problem" class="problem-text">Loading...</div>
+
+    <input type="number" id="answer" placeholder="Fill it!" />
+    <button id="submit">Submit</button>
+    
+    <div id="feedback" class="feedback-text"></div>
+    <div class="timer">⏱ Time left: <span id="time">40</span> sec</div>
+    <div class="score"> Score: <span id="score">0</span> / 9</div>
+    
+    <a href="gameplay1.html" class="back-link">← Back to Game (To Love Yurei)</a>
+    <a href="gameplay2.html" class="back-link">← Back to Game (To Water Yurei)</a>
+
+  </div>
+
+  <script src="minigame.js"></script>
+</body>
+</html>
+

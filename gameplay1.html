@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyYurei - Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/iif1egz.css" />
+</head>
+
+<body>
+    <div class="game-wrapper">
+
+        <div class="game-container">
+            <img src="images/housebackground.PNG" alt="background" class="background" />
+
+            <!-- Menu icons on left -->
+            <div class="menu-icons">
+                <img src="images/rice2.PNG" alt="rice bowl button " class="icon" id="btn-food" />
+                <img src="images/medicine2.PNG" alt="Medicine" class="icon" id="btn-medicine" />
+                <img src="images/insence2.PNG" alt="Insence cleanse" class="icon" id="btn-cleanse" />
+            </div>
+
+
+            <!-- Yurei sprite -->
+            <div class="yurei-container">
+                <img src="images/loveyurei.png" alt="Love Yurei (Pink ghost with heart eyes)" id="yurei" class="yurei-sprite" />
+            </div>
+
+            <!-- Happiness Bar -->
+            <div class="happiness-bar">
+                <div class="happiness-fill" id="happiness-fill"></div>
+            </div>
+
+            <div id="minigame-btn" class="game-button-link">
+                <img src="images/gamebutton2.PNG" alt="Minigame Button" class="game-button" />
+            </div>
+            <!-- Death -->
+            <div id="game-over-screen" class="game-over hidden">
+                <img src="images/background.PNG" alt="Game Over Background" class="game-over-bg" />
+                <div class="game-over-content">
+                    <h1>GAME OVER</h1>
+                    <p>Your Yurei has faded away...</p>
+                    <a href="titlescreen.html" class="restart-button">Return to Title</a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <script src="game.js"></script>
+</body>
+
+</html>

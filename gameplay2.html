@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyYurei - Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/iif1egz.css" />
+</head>
+<body>
+  <div class="game-wrapper">
+    <div class="game-container">
+      <img src="images/housebackground.PNG" alt="background" class="background" />
+
+      <!-- Menu icons on left -->
+      <div class="menu-icons">
+        <img src="images/rice1.PNG" alt="Rice bowl" class="icon" id="btn-food" />
+        <img src="images/medicine1.PNG" alt="Medicine" class="icon" id="btn-medicine" />
+        <img src="images/insence1.PNG" alt="Inscence Cleanse" class="icon" id="btn-cleanse" />
+      </div>
+
+      <!-- Yurei sprite (dynamic) -->
+      <div class="yurei-container">
+        <img id="yurei" class="yurei-sprite" />
+      </div>
+
+      <!-- Happiness Bar -->
+      <div class="happiness-bar">
+        <div class="happiness-fill" id="happiness-fill"></div>
+      </div>
+
+      <!-- Minigame button -->
+      <div id="minigame-btn" class="game-button-link">
+        <img src="images/gamebutton.png" alt="Minigame Button" class="game-button" />
+      </div>
+
+      <!-- Game Over screen -->
+      <div id="game-over-screen" class="game-over hidden">
+        <img src="images/background.PNG" alt="Game Over Background" class="game-over-bg" />
+        <div class="game-over-content">
+          <h1>GAME OVER</h1>
+          <p>Your Yurei has faded away...</p>
+          <a href="titlescreen.html" class="restart-button">Return to Title</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="waterscript.js"></script>
+</body>
+</html>
